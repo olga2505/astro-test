@@ -11,6 +11,7 @@
     "dev": "astro dev",
     "start": "astro dev --host",
     "build": "astro build",
+    "robots": "node create-robots-file.js",
     "preview": "astro preview",
     "astro": "astro",
     "lint:prettier": "prettier -w **/*.{js,jsx,ts,tsx,md,mdx,astro} --config .prettierrc.cjs",
