@@ -48,10 +48,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: "./build"
+          path: "./dist"
 
   deploy:
-    needs: build
+    needs: dist
 
     environment:
       name: github-pages
