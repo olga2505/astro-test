@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const OUTPUT_FOLDER = 'build';
+const OUTPUT_FOLDER = 'dist';
 
 new Promise(() => {
   fs.writeFileSync(
